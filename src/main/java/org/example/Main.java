@@ -1487,12 +1487,12 @@ public class Main {
         contadorFallos = 0;
         for (int i = 0; i < palabrasFalladas.length; i++) palabrasFalladas[i] = -1;
         bienvenida();
-        System.out.println("            En este juego, deberás escribir un sinónimo o un antónimo.\n" +
-                "              El sistema elegirá aleatoriamente qué tipo de respuesta debes dar.\n" +
-                "              Verás una palabra y deberás escribir:\n" +
-                "              - un sinónimo (misma idea), o\n" +
-                "              - un antónimo (idea opuesta).\n" +
-                "              Todas tus respuestas deben ser palabras aprendidas en la modalidad tradicional.\n");
+        System.out.println("           En este juego, deberás escribir un sinónimo o un antónimo.\n" +
+                "             El sistema elegirá aleatoriamente qué tipo de respuesta debes dar.\n" +
+                "             Verás una palabra y deberás escribir:\n" +
+                "             - un sinónimo (misma idea), o\n" +
+                "             - un antónimo (idea opuesta).\n" +
+                "             Todas tus respuestas deben ser palabras aprendidas en la modalidad tradicional.\n");
         contador();
 
         // PRIMERA RONDA
